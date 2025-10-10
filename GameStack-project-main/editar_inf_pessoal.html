@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStack</title>
+    <link rel="stylesheet" href="css/estilo_inf_pessoal.css">
+    <link rel="stylesheet" href="css/estilo-geral.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="icon" href="img/logo_com_fundo.svg" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-xl fixed-top cor" data-bs-theme="dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" class="img-fluid" alt="logo do portfólio">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="dropdown ms-3 d-lg-none">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+                <form class="d-flex mx-3 flex-grow-1 my-2 my-lg-0" role="search">
+                    <div class="input-group w-100">
+                        <button class="btn" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <input type="text" class="form-control barra-pesquisa" placeholder="Pesquise perfis, projetos, etc.">
+                    </div>
+                </form>
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item item_menu"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item item_menu"><a class="nav-link" href="busca_perfil.html">Perfis</a></li>
+                    <li class="nav-item item_menu"><a class="nav-link" href="busca_pjt.html">Projetos</a></li>
+                    <li class="nav-item item_menu"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown ms-3 d-none d-lg-flex">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main class="mt-5 bg-light inicio">
+    <div class="container">
+        <h2 class="text-center mb-4 fw-bold text-dark">Editar seus dados</h2>
+        <hr>
+
+        <form>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-md-6">
+                    <label for="capa" class="form-label fw-semibold">Foto perfil</label>
+                    <input type="file" class="form-control" id="capa" name="capa" required>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-md-6">
+                    <input type="text" class="form-control" name="Nome"  placeholder="Nome*" required>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <input type="text" class="form-control" name="Nome"  placeholder="Subtitulo*" required>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <textarea class="form-control" name="Descricao" id="Descricao" rows="3" placeholder="Descrição do Projeto"></textarea>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-md-6">
+                    <input type="number" class="form-control" name="telefone" id="telefone" placeholder="Telefone*" required>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <select id="status" name="status" class="form-select" required>
+                        <option value="" disabled selected>Gênero</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="nao-informar">Prefiro não informar</option>
+                            <option value="outro">Outro</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="mb-4">
+                <div class="label-group">
+                    <label for="colaboradores" class="form-label fw-semibold mb-0">
+                        Formações
+                    </label>
+                    <button type="button" class="btn btn-link p-0 text-primary">
+                        <i class="bi bi-plus-circle-fill fs-5"></i>
+                    </button>
+                </div>
+                <input type="text" class="form-control mb-3" name="colaboradores" id="colaboradores" placeholder="Formação 1*">
+                <input type="text" class="form-control" name="colaboradores" id="colaboradores1" placeholder="Formação 2*">
+
+            </div>
+
+            <div class="mb-4">
+                <div class="label-group">
+                    <label for="cntt" class="form-label fw-semibold mb-0">
+                        Contato
+                    </label>
+                    <button type="button" class="btn btn-link p-0 text-primary">
+                        <i class="bi bi-plus-circle-fill fs-5"></i>
+                    </button>
+                </div>
+
+                <div class="mt-4">
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="cntt"><i class="bi bi-facebook"></i></span>
+                        <input type="text" class="form-control" placeholder="Facebook">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="cntt1"><i class="bi bi-whatsapp"></i></span>
+                        <input type="text" class="form-control" placeholder="Whatsapp">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="cntt2"><i class="bi bi-instagram"></i></span>
+                        <input type="text" class="form-control" placeholder="Instagram">
+                    </div>                    
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="cntt3"><i class="bi bi-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="E-mail">
+                    </div> 
+
+                </div>
+
+            </div>
+
+            <div class="mb-4">
+                <div class="label-group">
+                    <label for="tags" class="form-label fw-semibold mb-0">
+                        Tags
+                    </label>
+                    <button type="button" class="btn btn-link p-0 text-primary">
+                        <i class="bi bi-plus-circle-fill fs-5"></i>
+                    </button>
+                </div>
+
+                <input type="text" class="form-control mb-3" name="colaboradores" id="tags" placeholder="Modelagem 3D">
+                <input type="text" class="form-control mb-3" name="colaboradores" id="tags2" placeholder="Level design">
+                <input type="text" class="form-control mb-3" name="colaboradores" id="tags3" placeholder="Game developer">
+                <input type="text" class="form-control mb-3" name="colaboradores" id="tags4" placeholder="Artista Digital">
+
+            </div>
+
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary px-5 py-2 rounded-4 btn-lg mb-5 mt-3 cor-botao">Adicionar</button>
+            </div>
+
+        </form>
+    </div>
+</main>
+
+
+<footer class="rodape modo-flex flex-column">
+    <div class="row container-fluid mt-5 mb-1">
+        <div class="col-md-4 modo-flex flex-column">
+            <div>
+                <img src="img/logo.svg" alt="Logo Streamis Net" width="200px">
+            </div>
+        </div>
+        <div class="col-md-4 modo-flex flex-column">
+            <h4 class="text-white">Navegação</h4>
+            <ul class="navegacao-rodape">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="busca_perfil.html">Perfis</a></li>
+                <li><a href="busca_pjt.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="perfil.html">Meu perfil</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 modo-flex flex-column">
+            <h4 class="text-white">Contato</h4>
+            <p class="mb-1"><i class="bi bi-telephone-fill"></i> gamestack@gmail.com</p>
+            <p><i class="bi bi-envelope-fill"></i> (18) 99621-2232</p>
+        </div>
+    </div>
+    <div class="fim-rodape row container-fluid text-center">
+        <p class="mt-4">© 2025 GameStack – Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

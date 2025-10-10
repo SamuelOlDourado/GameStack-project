@@ -1,0 +1,167 @@
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #28005F;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.container {
+    background-color: #F2F2F2;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.barra-pesquisa {
+    height: 40px;
+    font-size: 16px;
+}
+
+.inputa{
+    width: 100% !important;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.desc input{
+    height: 100px;
+}
+
+.tec input{
+    height: 100px;
+}
+
+.imgg input{
+    margin-top: 15px;
+    width: 25%;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.icon_mais{
+    border: none;
+}
+
+.inputa select{
+    width: 20%;
+    border-color: #c5c5c5;
+    border-radius: 8px;
+}
+
+.input_cont {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.capa_projeto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.capa_projeto h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.capa_projeto input {
+    width: 140px;
+}
+
+.cont_capa_status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status label {
+    font-size: 16px;
+}
+
+.status select {
+    width: 150px;
+}
+
+.text_registrar {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+}
+
+.text_registrar a {
+    color: #4a1d91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text_registrar a:hover {
+    text-decoration: underline;
+}
+
+.cont_bntt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+
+.label-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.label-group .btn-link {
+    color: #8a71c5 !important;
+    font-size: 1.2rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.label-group .btn-link:hover {
+    color: #7359af !important;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+.cor-botao{
+    background-color: #8a71c5 !important;
+    border: none !important;
+    transition: 0.3s ease !important;
+}
+
+.cor-botao:hover{
+      background-color: #7359af !important;
+}

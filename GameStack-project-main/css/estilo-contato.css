@@ -1,0 +1,54 @@
+body{
+    background-color: #DCDDFF !important;
+}
+
+.titulo h1{
+    color: #3F1495;
+    font-size: 45px;
+}
+
+h2{
+    color: #1E005A !important;
+    font-size: 35px !important;
+}
+
+.contato p{
+    font-size: 16px;
+}
+
+.sociais-icones {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sociais-icones i {
+    font-size: 36px;
+    color: #3F1495;
+}
+
+.sociais-icones i:hover{
+    color: #1f0a4c;
+}
+
+strong{
+    color: #3F1495;
+    font-size: 18px;
+}
+
+textarea{
+    height: 115px !important;
+}
+
+.btn-success{
+    background-color: #3F1495 !important;
+    border: none !important;
+}
+
+.btn-success:hover{
+    background-color: #240b55 !important;
+    border: none !important;
+}
+
+
+

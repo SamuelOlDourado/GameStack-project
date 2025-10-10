@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 77%, rgba(94, 86, 143, 1) 100%);
+}
+
+.containerrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.esquerda {
+    background: #160633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.esquerda .logo {
+    width: 100%;
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 40px 20px;
+}
+
+.loginn {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+.loginn img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.logo_login {
+    display: none;
+}
+
+.loginn h2 {
+    margin-bottom: 40px;
+    color: #1a0d2d;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-group-text {
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+}
+
+.text_registrar {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.text_registrar a {
+    color: #4a1d91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text_registrar a:hover {
+    text-decoration: underline;
+}
+
+.btnn {
+    width: 100%;
+    padding: 12px;
+    background: #1a0d2d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btnn:hover {
+    background: #32184d;
+}
+
+.loginn img {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .esquerda {
+        display: none;
+    }
+
+    .direita {
+        flex: 1;
+        padding: 40px 20px;
+    }
+
+    .loginn h2 {
+        font-size: 40px;
+    }
+
+    .container-lados{
+        padding: 20px;
+    }
+
+    .loginn{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginn img{
+        display: flex;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .loginn {
+        max-width: 100%;
+    }
+
+    .loginn h2 {
+        font-size: 32px;
+    }
+
+    .btnn {
+        font-size: 15px;
+    }
+}

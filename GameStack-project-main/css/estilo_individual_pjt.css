@@ -1,0 +1,91 @@
+/*BANNER*/
+
+.banner img{
+    margin-top: 85px;
+    width: 100%;
+    height: 100%;
+}
+
+/* MAIN */
+.container {
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.esquerda, .direita {
+    width: 100%;
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.descricao {
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #5c4bdb;
+}
+
+.descricao {
+    width: 70%;
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #5c4bdb;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.colabora {
+    background-color: #ebe8ff;
+    color: #4b3ad1;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.colabora:hover {
+    background-color: #d9d3ff;
+}
+
+.links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links li {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #328bda;
+    cursor: pointer;
+}
+
+
+.imagens img{
+    width: 455px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

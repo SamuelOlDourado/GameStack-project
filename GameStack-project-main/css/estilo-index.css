@@ -1,0 +1,88 @@
+.apresentacao {
+    background-color: #160633;
+}
+
+.apresentacao hr,
+.servicos hr,
+.depoimentos hr{
+    border: 4px solid #8a71c5 !important;
+    width: 280px !important;
+}
+
+.apresentacao img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: "Jersey 20", sans-serif;;
+    font-size: 3.125rem;
+    color: #D5FFE0;
+    margin-top: 30px;
+}
+
+.apresentacao p {
+    font-size: 18px;
+    color: #D5FFE0;
+}
+
+.apresentacao strong {
+    color: #e0fffa;
+    font-size: 16px;
+}
+
+
+.servicos{
+    background: linear-gradient(180deg,rgba(22, 6, 51, 1) 0%, rgba(14, 4, 33, 1) 100%);
+}
+
+.servicos h2, p {
+    color: #D5FFE0;
+}
+
+.servicos h5{
+    color: #977DCB;
+    margin-top: 20px;
+}
+
+.servico-card{
+    text-align: center;
+}
+
+.servico-card img{
+    width: 50%;
+    height: 50%;
+}
+
+.depoimentos{
+    background: linear-gradient(180deg,rgba(14, 4, 33, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.depoimentos h5{
+    margin-top: 20px;
+    color: #bb98ff;
+}
+
+.caracter-card{
+    background-color: #210d47 !important;
+    box-shadow: 10px 10px 0px rgb(196, 255, 251) !important;
+    text-align: center;
+}
+
+.caracter-card img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.btn-primary{
+    color: #D5FFE0;
+    background-color: #4321B1;
+    border: none;
+    margin-bottom: 40px !important;
+}
+
+.btn-primary:hover{
+    background-color: #331977;
+    color: #8dd69e;
+}
+
