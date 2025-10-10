@@ -14,8 +14,9 @@ main h2{
     border-radius: 20px;
 }
 
-.input-group {
-    margin-bottom: 15px;
+.barra-pesquisa {
+    height: 40px;
+    font-size: 16px;
 }
 
 .inputa{

@@ -5,6 +5,10 @@
     font-family: "Arial", sans-serif;
 }
 
+body{
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 77%, rgba(94, 86, 143, 1) 100%);
+}
+
 .containerrr {
     display: flex;
     align-items: center;
@@ -12,6 +16,7 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
+
 }
 
 .esquerda {
@@ -27,7 +32,6 @@
 }
 
 .direita {
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +43,15 @@
     width: 100%;
     max-width: 360px;
     text-align: center;
+}
+
+.loginn img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.logo_login {
+    display: none;
 }
 
 .loginn h2 {
@@ -98,6 +111,10 @@
     background: #32184d;
 }
 
+.loginn img {
+    display: none;
+}
+
 @media (max-width: 992px) {
     .esquerda {
         display: none;
@@ -115,6 +132,19 @@
     .container-lados{
         padding: 20px;
     }
+
+    .loginn{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginn img{
+        display: flex;
+    }
+
 }
 
 @media (max-width: 576px) {
