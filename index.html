@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - GameStack</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo-geral.css">
+  <link rel="stylesheet" href="css/estilo-index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-xl fixed-top cor" data-bs-theme="dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.svg" class="img-fluid" alt="logo do portfólio">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="dropdown ms-3 d-lg-none">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+          <li><a class="dropdown-item" href="login.html">Sair</a></li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+        <form class="d-flex mx-3 flex-grow-1 my-2 my-lg-0" role="search">
+          <div class="input-group w-100">
+            <button class="btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+            <input type="text" class="form-control" placeholder="Pesquise perfis, projetos, etc.">
+          </div>
+        </form>
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item item_ativo"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="busca_perfil.html">Perfis</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="busca_pjt.html">Projetos</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown ms-3 d-none d-lg-flex">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+          <li><a class="dropdown-item" href="login.html">Sair</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+
+<section class="inicio d-flex m-0">
+  <div class="banner row d-flex container-fluid p-0 m-0">
+    <img src="img/home/banner-home.svg" alt="banner" class="img-fluid p-0 m-0">
+  </div>
+</section>
+
+<section class="apresentacao d-flex flex-column justify-content-center align-items-center">
+
+  <div class="row mb-5 container-fluid">
+
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mb-5">
+      <div>
+        <img class="img-fluid" src="img/logo.svg" alt="Logo gameStack">
+      </div>
+    </div>
+
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column">
+        <h2>Sobre nós</h2>
+        <hr>
+        <p>No GameStack, acreditamos que criar jogos é muito mais do que programar linhas de código — é dar vida a ideias, contar histórias e conectar pessoas através da experiência interativa.
+          Nossa plataforma nasceu com o propósito de unir desenvolvedores, designers, artistas e entusiastas do mundo dos games em um único espaço colaborativo.</p>
+        <p>Aqui, cada usuário pode mostrar seus projetos, compartilhar experiências e se inspirar com o trabalho de outros criadores. O GameStack é o ponto de encontro ideal para quem deseja crescer
+          na indústria de jogos, seja como profissional, estudante ou apaixonado pela arte de criar mundos digitais.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="apresentacao d-flex flex-column justify-content-center align-items-center">
+
+  <div class="row mb-5 container-fluid">
+
+    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column">
+        <h2>Crie Conexões:</h2>
+        <hr>
+        <p class="conec-text">Expanda suas redes e seus horizontes na comunidade de jogos independentes.</p>
+        <p><strong><i class="bi bi-lightbulb-fill"></i> Nossa missão é fortalecer a comunidade de desenvolvimento de jogos.</strong></p>
+        <p><strong><i class="bi bi-eye-fill"></i> Nossa visão é fazer do GameStack um espaço de estimulo a criatividade e anovas oportunidades no mundo dos games.</strong></p>
+        <p><strong><i class="bi bi-gem"></i> Nossos valores são colaboração, inovação e paixão.</strong></p>
+      </div>
+    </div>
+
+    <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mb-5">
+      <div>
+        <img class="img-fluid" src="img/home/equipe-img.svg" alt="Equipe unida">
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="servicos d-flex flex-column justify-content-center align-items-center t-2">
+
+  <div class="row container-fluid text-center justify-content-center">
+    <h2 class="mt-5">Serviços</h2>
+    <hr>
+  </div>
+
+  <div class="row g-5 mt-5 container-fluid mb-5">
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+      <div class="servico-card">
+        <img src="img/home/perfil-icone.svg" class="card-img img-fluid" alt="Icone de perfil">
+        <h5>Construção de Perfis Profissionais</h5>
+        <p>Crie um perfil que demonstre seu trabalho e habilidades no desenvolvimento de jogos.</p>
+      </div>
+    </div>
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+      <div class="servico-card">
+        <img src="img/home/conecao-icone.svg" class="card-img img-fluid" alt="Icone de conexão">
+        <h5>Conexão com Outros Criadores</h5>
+        <p>Encontre e conecte-se com outros profissionais para colaboração e aprendizado.</p>
+      </div>
+    </div>
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+      <div class="servico-card">
+        <img src="img/home/projeto-icone.svg" class="card-img img-fluid" alt="Icone de exposição">
+        <h5>Exposição de Projetos</h5>
+        <p>Compartilhe seus projetos aqui e receba feedback da comunidade.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="depoimentos d-flex flex-column justify-content-center align-items-center">
+
+  <div class="row container-fluid text-center justify-content-center">
+    <h2 class="mt-5">Depoimentos</h2>
+    <hr>
+  </div>
+
+  <div class="row container-fluid mt-5">
+
+    <div class="col mb-5 d-flex justify-content-center align-items-center ">
+      <div class="card caracter-card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="img/home/depoi-icone.svg" class="card-img img-fluid" alt="Depoimentos">
+          <h5 class="card-title">Nome</h5>
+          <p class="card-text">Desde que comecei a usar o serviço, a forma como trabalho mudou completamente. A plataforma é intuitiva e o suporte é incrível.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-5 d-flex justify-content-center align-items-center ">
+      <div class="card caracter-card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="img/home/depoi-icone.svg" class="card-img img-fluid" alt="Depoimentos">
+          <h5 class="card-title">Nome</h5>
+          <p class="card-text">Desde que comecei a usar o serviço, a forma como trabalho mudou completamente. A plataforma é intuitiva e o suporte é incrível.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-5 d-flex justify-content-center align-items-center ">
+      <div class="card caracter-card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="img/home/depoi-icone.svg" class="card-img img-fluid" alt="Depoimentos">
+          <h5 class="card-title">Nome</h5>
+          <p class="card-text">Desde que comecei a usar o serviço, a forma como trabalho mudou completamente. A plataforma é intuitiva e o suporte é incrível.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row container-fluid">
+    <div class="col botao-mais modo-flex mt-5 mb-5">
+      <div><a href="login.html" class="btn btn-primary btn-lg">Participar agora!</a></div>
+    </div>
+  </div>
+
+</section>
+
+<footer class="rodape modo-flex flex-column">
+  <div class="row container-fluid mt-5 mb-1">
+    <div class="col-md-4 modo-flex flex-column">
+      <div>
+        <img src="img/logo.svg" alt="Logo Streamis Net" width="200px">
+      </div>
+    </div>
+    <div class="col-md-4 modo-flex flex-column">
+      <h4 class="text-white">Navegação</h4>
+      <ul class="navegacao-rodape">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="busca_perfil.html">Perfis</a></li>
+        <li><a href="busca_pjt.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="perfil.html">Meu perfil</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4 modo-flex flex-column">
+      <h4 class="text-white">Contato</h4>
+      <p class="mb-1"><i class="bi bi-telephone-fill"></i> gamestack@gmail.com</p>
+      <p><i class="bi bi-envelope-fill"></i> (18) 99621-2232</p>
+    </div>
+  </div>
+  <div class="fim-rodape row container-fluid text-center">
+    <p class="mt-4">© 2025 GameStack – Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

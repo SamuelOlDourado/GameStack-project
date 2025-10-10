@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato - GameStack</title>
+    <link rel="stylesheet" href="css/estilo-geral.css">
+    <link rel="stylesheet" href="css/estilo-contato.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-xl fixed-top cor" data-bs-theme="dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" class="img-fluid" alt="logo do portfólio">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="dropdown ms-3 d-lg-none">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+                <form class="d-flex mx-3 flex-grow-1 my-2 my-lg-0" role="search">
+                    <div class="input-group w-100">
+                        <button class="btn" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <input type="text" class="form-control" placeholder="Pesquise perfis, projetos, etc.">
+                    </div>
+                </form>
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item item_menu"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item item_menu"><a class="nav-link" href="busca_perfil.html">Perfis</a></li>
+                    <li class="nav-item item_menu"><a class="nav-link" href="busca_pjt.html">Projetos</a></li>
+                    <li class="nav-item item_ativo"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown ms-3 d-none d-lg-flex">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<section class="inicio contato modo-flex flex-column">
+
+    <div class="titulo row container-fluid text-center justify-content-center">
+        <h1 class="mt-5">ENTRE EM CONTATO!</h1>
+    </div>
+
+    <div class="row container-fluid align-items-center g-5 mt-1 mb-5 revelar">
+
+        <div class="col-md-4">
+            <div>
+                <h2>Fale com agente!</h2>
+                <p>Tem alguma dúvida, sugestão ou mensagem pra passar pra gente? Não tenha medo, preencha o formulario e vamos te atender da melhor maneira!</p>
+                <p><strong>Email: gamestack@gmail.com</strong></p>
+                <p><strong>Telefone: 1899621-2232</strong></p>
+            </div>
+            <div class="sociais-icones">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <form action="#">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Seu nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" aria-label="With textarea" id="mensagem" required></textarea>
+                </div>
+                <button type="submit" class="formulario-btn btn btn-success btn-lg w-50 mt-2">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="rodape modo-flex flex-column">
+    <div class="row container-fluid mt-5 mb-1">
+        <div class="col-md-4 modo-flex flex-column">
+            <div>
+                <img src="img/logo.svg" alt="Logo Streamis Net" width="200px">
+            </div>
+        </div>
+        <div class="col-md-4 modo-flex flex-column">
+            <h4 class="text-white">Navegação</h4>
+            <ul class="navegacao-rodape">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="busca_perfil.html">Perfis</a></li>
+                <li><a href="busca_pjt.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="perfil.html">Meu perfil</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 modo-flex flex-column">
+            <h4 class="text-white">Contato</h4>
+            <p class="mb-1"><i class="bi bi-telephone-fill"></i> gamestack@gmail.com</p>
+            <p><i class="bi bi-envelope-fill"></i> (18) 99621-2232</p>
+        </div>
+    </div>
+    <div class="fim-rodape row container-fluid text-center">
+        <p class="mt-4">© 2025 GameStack – Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

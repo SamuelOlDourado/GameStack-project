@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+header ul{
+    gap: 30px;
+}
+
+.barra-pesquisa button, header input{
+    background-color: #1C0843 !important;
+    border: none !important;
+}
+
+.barra-pesquisa input{
+    width: 300px !important;
+}
+
+.cor{
+    background-color: #3F1495 !important;
+}
+
+.item_ativo a{
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.item_menu a{
+    color: #c0a2ff !important;
+}
+
+.item_menu a:hover{
+    color: #e4d5ff !important;
+}
+
+header .dropdown-menu {
+    background-color: #1C0843 !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff !important;
+}
+
+header .dropdown-menu .dropdown-item:hover {
+    background-color: #3F1495 !important;
+}
+
+header form button{
+    background-color: #1C0843 !important;
+}
+
+.fim-rodape{
+    background-color: #140037;
+}
+
+.modo-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    padding-top: 85px !important;
+}
+
+.rodape{
+    background-color: #170043;
+}
+
+.rodape p{
+    color: #fff;
+}
+
+.rodape h4{
+    color: #ccffda;
+}
+
+.navegacao-rodape{
+    list-style: none;
+    color: white;
+}
+
+.navegacao-rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacao-rodape a:hover{
+    color: #cdffd5 !important;
+}
+
+.credito-rodape{
+    background-color: #09001B;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .barra-pesquisa .input-group {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .barra-pesquisa .input-group {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .barra-pesquisa .input-group {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

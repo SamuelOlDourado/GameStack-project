@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato - GameStack</title>
+  <link rel="stylesheet" href="css/estilo-geral.css">
+  <link rel="stylesheet" href="css/estilo-perfil.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-xl fixed-top cor" data-bs-theme="dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.svg" class="img-fluid" alt="logo do portfólio">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="dropdown ms-3 d-lg-none">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+          <li><a class="dropdown-item" href="login.html">Sair</a></li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+        <form class="d-flex mx-3 flex-grow-1 my-2 my-lg-0" role="search">
+          <div class="input-group w-100">
+            <button class="btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+            <input type="text" class="form-control" placeholder="Pesquise perfis, projetos, etc.">
+          </div>
+        </form>
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item item_menu"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="busca_perfil.html">Perfis</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="busca_pjt.html">Projetos</a></li>
+          <li class="nav-item item_menu"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown ms-3 d-none d-lg-flex">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/perfil-cabecalho.svg" alt="Perfil" width="40" height="40">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="perfil.html">Meu Perfil</a></li>
+          <li><a class="dropdown-item" href="login.html">Sair</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<section class="container-fluid container-perfil inicio">
+  <div class="row">
+
+    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 fundo-inform p-5">
+      <div>
+        <div class="foto-perfil"><img src="img/perfil-cabecalho.svg" class="img-fluid" alt="foto do perfil"></div>
+        <div class="titulo-aba">
+          <h2 class="titulo">Nome usuario</h2>
+          <a href="editar_inf_pessoal.html" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+        </div>
+        <hr>
+        <h4>Biografia</h4>
+        <p>Em minha carreira, trabalhei em mais de 15 títulos para plataformas móveis e PC, onde tive a oportunidade de liderar equipes e contribuir para a criação de sistemas de combate complexos, físicas de objetos realistas e lógicas de IA envolventes.</p>
+        <hr>
+        <h4>Formações</h4>
+        <ul>
+          <li>Desenvolvedor de software - Instituição</li>
+          <li>Design 3D - Instituição</li>
+        </ul>
+        <hr>
+        <h4>Tags</h4>
+        <div class="container-tags">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><div class="tag">Modelagem 3D</div></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><div class="tag">Level design</div></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><div class="tag">Game developer</div></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><div class="tag">Artista Digital</div></div>
+          </div>
+        </div>
+        <hr>
+        <h4>Redes sociais</h4>
+        <div class="sociais-icones">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 fundo-projeto p-5">
+
+      <div class="row">
+        <div class="d-flex titulo-aba text-start">
+          <h2 class="card-title cor-titulo">Projetos</h2>
+          <a href="adicionar_projeto.html" class="btn btn-primary"><i class="bi bi-plus-lg"></i></a>
+        </div>
+      </div>
+
+      <div class="row d-flex align-items-center">
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+          <div class="card h-100">
+            <a href="pagina_individual_pjt.html"><img src="img/perfil/projeto-generico.svg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <div class="titu-icones">
+                <h5 class="card-title">Projeto</h5>
+                <a href="editar_projeto.html" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></a>
+                <a href="#" class="btn btn-outline-primary"><i class="bi bi-trash3-fill"></i></a>
+              </div>
+              <p class="card-text">Descrição</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col modo-flex mt-5">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="rodape modo-flex flex-column">
+  <div class="row container-fluid mt-5 mb-1">
+    <div class="col-md-4 modo-flex flex-column">
+      <div>
+        <img src="img/logo.svg" alt="Logo Streamis Net" width="200px">
+      </div>
+    </div>
+    <div class="col-md-4 modo-flex flex-column">
+      <h4 class="text-white">Navegação</h4>
+      <ul class="navegacao-rodape">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="busca_perfil.html">Perfis</a></li>
+        <li><a href="busca_pjt.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="perfil.html">Meu perfil</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4 modo-flex flex-column">
+      <h4 class="text-white">Contato</h4>
+      <p class="mb-1"><i class="bi bi-telephone-fill"></i> gamestack@gmail.com</p>
+      <p><i class="bi bi-envelope-fill"></i> (18) 99621-2232</p>
+    </div>
+  </div>
+  <div class="fim-rodape row container-fluid text-center">
+    <p class="mt-4">© 2025 GameStack – Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

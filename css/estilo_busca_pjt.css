@@ -1,0 +1,185 @@
+/*HEADER*/
+
+header img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+header ul{
+    gap: 30px;
+}
+
+.barra-pesquisa button, input{
+    background-color: #1C0843 ;
+    border: none !important;
+}
+
+.barra-pesquisa input{
+    width: 300px !important;
+}
+
+.cor{
+    background-color: #3F1495 !important;
+}
+
+.item_ativo a{
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.item_menu a{
+    color: #c0a2ff !important;
+}
+
+.item_menu a:hover{
+    color: #e4d5ff !important;
+}
+
+
+/*FOOTER*/
+
+.fim-rodape{
+    background-color: #00001f;
+}
+
+.modo-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    background-color: #0D0125;
+}
+
+.rodape p{
+    color: #fff;
+}
+
+.rodape h4{
+    color: #ccffda;
+}
+
+.navegacao-rodape{
+    list-style: none;
+    color: white;
+}
+
+.navegacao-rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacao-rodape a:hover{
+    color: #cdffd5 !important;
+}
+
+.credito-rodape{
+    background-color: #09001B;
+    color: white;
+}
+
+/*DIV ABAIXO HEADER*/
+
+.abaixo_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding-top: 150px;
+    padding-bottom: 25px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.titulos_busca h2{
+    color: #836FAC;
+    font-weight: bold;
+}
+
+.titulos_busca p{
+    color: #4E406A;
+    font-weight: bold;
+}
+
+.combo_busca select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.combo_busca option{
+    font-size: 15px;
+}
+
+/*MAIN*/
+
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.linha_com_3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    height: 200px !important;
+    border: 1px solid #a8f5cd !important;
+    border-radius: 2px;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+    margin: 20px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    background-color: #B0FFCA !important;
+    height: 70px;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: left;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-body h3 span {
+    color: #777;
+    font-weight: normal;
+}
+
+.card-body p {
+    font-size: 13px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.pagina_numero {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.page-link {
+    color: #19004A !important;
+}
+
+.page-link:hover {
+    background-color: #19004A !important;
+    color: #fff !important;
+}
